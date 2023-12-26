@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Threading;
 using System.Diagnostics;
+using ClassesForExercise;
 
 namespace CoreCollectionsAsync
 {
@@ -120,12 +121,15 @@ namespace CoreCollectionsAsync
             //4. Prepare a full breakfast using async methods! 
 
             BreakfastWIthThreads.MakeBreakfastDemoAsync_5().Wait();
-           
-            
 
-         
+
+
+
             //5. Prepare a full breakfast ysing async and a Any method + list of tasks            
             //BreakfastWIthThreads.MakeBreakfastDemoAsync_5().Wait();
+
+            ElectricCar shahar = new ElectricCar(1);
+            shahar.StartEngine();
 
           
         }
